@@ -1,6 +1,6 @@
 {% set name = "databricks-sdk" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "86afe426e101470bc52372dab47cc4348e5db84b585dcccfcb7d58b3a84b6ed9" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "03ffcfd491dd5268448439d7905649f43b5c1c9114addd9d90adcb1c83978cf9" %}
 
 package:
   name: {{ name|lower }}
