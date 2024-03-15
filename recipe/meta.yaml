@@ -42,5 +42,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - monaldoj
     - jasongrout-db
     - nfx
