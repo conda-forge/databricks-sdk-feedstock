@@ -43,6 +43,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - dhirschfeld
     - jasongrout-db
     - nfx
     - monaldoj
