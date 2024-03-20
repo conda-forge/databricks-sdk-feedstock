@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@jasongrout-db](https://github.com/jasongrout-db/)
+* [@monaldoj](https://github.com/monaldoj/)
 * [@nfx](https://github.com/nfx/)
 
