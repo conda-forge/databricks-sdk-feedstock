@@ -1,6 +1,6 @@
 {% set name = "databricks-sdk" %}
-{% set version = "0.23.0" %}
-{% set sha256 = "49aadf2d6fff4af73ee1739c5da09827a410bb77cc365210195703b08fc67a74" %}
+{% set version = "0.24.0" %}
+{% set sha256 = "54cd549e76acc23d945d83048e050e7ce4cd7ad33fb2e58ddeaaf87a1ad03c79" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
