@@ -1,13 +1,13 @@
 {% set name = "databricks-sdk" %}
-{% set version = "0.38.0" %}
-{% set sha256 = "65e505201b65d8a2b4110d3eabfebce5a25426d3ccdd5f8bc69eb03333ea1f39" %}
+{% set version = "0.39.0" %}
+{% set sha256 = "2e04edbb9e050f4362da804fb5dad07637c5adecfcffb4d0ca8abb5aefa36d06" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
